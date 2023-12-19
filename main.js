@@ -12,7 +12,7 @@ function sendMessage() {
       chatMessages.scrollTop = chatMessages.scrollHeight;
     }
   }
-  
+  // 
   // Event listener
   document.getElementById('send-button').addEventListener('click', sendMessage);
   document.getElementById('message-input').addEventListener('keydown', (event) => {
